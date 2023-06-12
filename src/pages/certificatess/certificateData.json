@@ -1,0 +1,62 @@
+[
+  {
+    "title": "HTML CSS Development",
+    "image": "./certificateImages/cert-html-css.png",
+    "uni": "Altcademy",
+    "id": "1"
+  },
+  {
+    "title": "Javascript Programming",
+    "image": "./certificateImages/cert-js.png",
+    "uni": "Altcademy",
+    "id": "2"
+  },
+  {
+    "title": "Dynamic Website Decelopment",
+    "image": "./certificateImages/cert-dwd.png",
+    "uni": "Altcademy",
+    "id": "3"
+  },
+  {
+    "title": "Coding 101",
+    "image": "./certificateImages/cert-code101.png",
+    "uni": "Altcademy",
+    "id": "4"
+  },
+  {
+    "title": "HTML Certification Course",
+    "image": "./certificateImages/ph-html.jpg",
+    "uni": "Programming Hub",
+    "id": "5"
+  },
+  {
+    "title": "HTML Advanced Certification Course",
+    "image": "./certificateImages/ph-html-adv.jpg",
+    "uni": "Programming Hub",
+    "id": "6"
+  },
+  {
+    "title": "CSS Certification Course",
+    "image": "./certificateImages/ph-css.jpg",
+    "uni": "Programming Hub",
+    "id": "7"
+  },
+  {
+    "title": "Javascript Cerification Course",
+    "image": "./certificateImages/ph-js.jpg",
+    "uni": "Programming Hub",
+    "id": "8"
+  },
+  {
+    "title": "Javascript Advanced Cerification Course",
+    "image": "./certificateImages/ph-js-adv.jpg",
+    "uni": "Programming Hub",
+    "id": "9"
+  },
+  {
+    "title": "Building a Website Cerification Course",
+    "image": "./certificateImages/ph-baw.jpg",
+    "uni": "Programming Hub",
+    "id": "10"
+  }
+]
