@@ -4,7 +4,7 @@ import PageHeader from "../../components/PageHeader";
 
 const Certificates = () => {
   const CertificateList = () => (
-    <div className="cert-container">
+    <div>
       {certificateData.map((certificate, i) => (
         <div key={i} id={certificate.id}>
           <h2>{certificate.title}</h2>
@@ -16,10 +16,10 @@ const Certificates = () => {
   );
 
   return (
-    <section className="portfolio">
+    <section className="certificates">
       <PageHeader title="Certificates" description="Explore my credentials" />
       <div className="row">
-        <CertificateList />
+        <CertificateList className="cert-container" />
       </div>
     </section>
   );
