@@ -2,7 +2,7 @@ import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 
 import Landing from "../pages/landing/Landing";
 import Portfolio from "../pages/portfolio/Portfolio";
-import Certificates from "../pages/certificates/Certificates";
+import Certificates from "../pages/certificatess/Certificates";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import PageNotFound from "../pages/404/PageNotFound";

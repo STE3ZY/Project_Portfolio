@@ -1,15 +1,14 @@
 import React from "react";
 import certificateData from "./certificateData.json";
 import PageHeader from "../../components/PageHeader";
+import "./certificates.css";
 
 const Certificates = () => {
   const CertificateList = () => (
     <div>
       {certificateData.map((certificate, i) => (
         <div key={i} id={certificate.id}>
-          <h2>{certificate.title}</h2>
           <img src={certificate.image} alt={certificate.title} />
-          <p>{certificate.uni}</p>
         </div>
       ))}
     </div>

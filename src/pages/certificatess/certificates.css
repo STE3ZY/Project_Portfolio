@@ -5,4 +5,5 @@
   overflow: hidden;
   margin-top: var(--spacing);
   padding-bottom: var(--spacing);
+  color: var(--text-color);
 }
