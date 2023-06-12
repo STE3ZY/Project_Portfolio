@@ -19,7 +19,7 @@ const Certificates = () => {
     <section className="certificates">
       <PageHeader title="Certificates" description="Explore my credentials" />
       <div className="row">
-        <CertificateList className="cert-container" />
+        <CertificateList />
       </div>
     </section>
   );
