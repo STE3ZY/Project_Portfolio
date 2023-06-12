@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Discover Meteora",
+    "image": "./projectImages/dscvrM.png",
+    "description": "A basic React application that demonstrates the use of React components, React Router, and other tools and dependencies that I used to build a simple travel website for my hometown. The application uses external dependencies such as FontAwesome for icons and CSS files for styling. It also uses React hooks, such as useEffect, to manage the lifecycle of the components and handle side effects.",
+    "technologies": "React | Node | CSS",
+    "github": "https://github.com/STE3ZY/ReactProjectM.git",
+    "deployed": "https://ste3zy.github.io/ReactProjectM/",
+    "bgcolor": "#f37737",
+    "id": "1"
+  },
+  {
+    "title": "10 Second Math Game",
+    "image": "./projectImages/10SecMath.png",
+    "technologies": "jQuery | Bootstrap | CSS",
+    "description": " This simple game allows the user to select the type of arithmetic operation (addition, subtraction, multiplication, or division) and the maximum value of the operands. The game generates an arithmetic equation randomly with two operands and an operator, and the user has ten seconds to input the correct answer using the provided calculator. The game displays the equation, the time left, the score, and the high score. The code uses jQuery and Bootstrap to style and handle the HTML and CSS. ",
+    "github": "https://github.com/STE3ZY/10_Second_Math.git",
+    "deployed": "https://ste3zy.github.io/10_Second_Math/",
+    "bgcolor": "#29cbe0",
+    "id": "2"
+  },
+  {
+    "title": "Movie-Finder",
+    "image": "./projectImages/movieFinder.png",
+    "technologies": "jQuery | AJAX | OMDb API",
+    "description": "This is a web page that allows users to search for movies and displays search results using data from the Open Movie Database API (OMDb). The page has a search bar where users can enter the movie they want to search for. The search results are then displayed and include the movie poster, an interactive title that functions as a hyperlink to the IMDb webpage, and year of release. To build this webpage, HTML, CSS, and JavaScript were used. The JavaScript code uses an XMLHttpRequest object to retrieve data from the OMDb API and then dynamically updates the webpage with the search results. ",
+    "github": "https://github.com/STE3ZY/Movie_Finder.git",
+    "deployed": "https://ste3zy.github.io/Movie_Finder/",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "To Do List",
+    "image": "./projectImages/toDo.png",
+    "technologies": " jQuery  | AJAX  | RESTful API | Bootstrap",
+    "description": "A simple web application that allows a user to create a to-do list, mark items as complete, and delete items. The application uses AJAX to communicate with a RESTful API that provides the backend for the application. The application uses jQuery to handle the AJAX requests and to update the display of the to-do list dynamically. The app includes a responsive design using Bootstrap. ",
+    "github": "https://github.com/STE3ZY/ToDoList.git",
+    "deployed": "https://ste3zy.github.io/ToDoList/",
+    "bgcolor": "#f85781",
+    "id": "4"
+  },
+
+  {
+    "title": "Simple Shopping Cart",
+    "image": "./projectImages/shoppingCart.png",
+    "description": "A shopping cart web page that allows users to add products to their cart and calculate the total price of their purchases. There are options for removing individual items from the cart, empty the cart by removing everything and adding new items. The page is built using HTML, CSS, and JavaScript, and utilizes the Bootstrap framework for styling. ",
+    "technologies": "jQuery  | Bootstrap | CSS | HTML",
+    "github": "https://github.com/STE3ZY/Simple-Shopping-Cart.git",
+    "deployed": "https://ste3zy.github.io/Simple-Shopping-Cart/",
+    "bgcolor": "#ffcc33",
+    "id": "1"
+  },
+
+  {
+    "title": "Rock-Paper-Scissors-Lizard-Spock",
+    "image": "./projectImages/RockPaper.png",
+    "technologies": "JS | HTML | CSS",
+    "description": "This webpage is a simple implementation of the Rock, Paper, Scissors game with a twist. The game is played against a computer opponent and the user can select from a list of choices. The webpage has two game modes: continuous and best-out-of-three. The page was built using HTML, CSS, and JavaScript. It also uses the DOM API to manipulate the webpage dynamically, including event listeners and creating new HTML elements on the page.",
+    "github": "https://github.com/STE3ZY/Rock-Paper-Scissors-Lizard-Spock.git",
+    "deployed": "https://ste3zy.github.io/Rock-Paper-Scissors-Lizard-Spock/",
+    "bgcolor": "#3e67ff",
+    "id": "6"
+  },
+
+  {
+    "title": "Airbnb Newsroom Clone",
+    "image": "./projectImages/airBnb.png",
+    "technologies": "Bootstrap 4 | HTML | CSS",
+    "description": "The third Altcademy project was created using the current Airbnb Newsroom as a reference. Bootstrap 4 was used to form the layout, navigation bar with dropdown menu and a scrollable row.",
+    "github": "",
+    "deployed": "https://wondrous-lebkuchen-286556.netlify.app/",
+    "bgcolor": "#fe67aa",
+    "id": "6"
+  },
+
+  {
+    "title": "Newsweek Clone",
+    "image": "./projectImages/newsweek.png",
+    "technologies": "Bootstrap 3 | HTML | CSS",
+    "description": "This was the second Altcademy project. This website was created utilizing html, custom css and the grid stucture of Bootstrap 3, including mobile responsive design. ",
+    "github": "",
+    "deployed": "https://poetic-tarsier-9ea616.netlify.app/",
+    "bgcolor": "#05e808",
+    "id": "6"
+  },
+
+  {
+    "title": "Apple Clone",
+    "image": "./projectImages/appleClone.png",
+    "technologies": "HTML | CSS",
+    "description": "This project was the first of Altcademy's assignments. Our goal was to clone the home page of Apple using html and css. ",
+    "github": "",
+    "deployed": "https://celadon-torte-4e1b27.netlify.app/",
+    "bgcolor": "#8a67df",
+    "id": "6"
+  }
+]
