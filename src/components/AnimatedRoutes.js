@@ -1,8 +1,9 @@
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 
 import Landing from "../pages/landing/Landing";
-import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
+import Certificates from "../pages/certificates/Certificates";
+import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import PageNotFound from "../pages/404/PageNotFound";
 
@@ -21,6 +22,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
         }
       />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/certificates" element={<Certificates />} />
       <Route
         path="/about"
         element={
@@ -33,7 +35,6 @@ const AnimatedRoutes = ({ personalDetails }) => {
           />
         }
       />
-
       <Route
         path="/contact"
         element={
