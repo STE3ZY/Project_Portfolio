@@ -1,6 +1,7 @@
 import React from "react";
 import certificateData from "./certificateData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { FreeMode } from "swiper";
 import PageHeader from "../../components/PageHeader";
 import "./certificates.css";
 
@@ -10,6 +11,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
+
+SwiperCore.use([FreeMode]);
 
 function Certificates() {
   const certificateItems = certificateData.map((certificate) => (
