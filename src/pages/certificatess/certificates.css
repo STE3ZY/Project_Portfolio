@@ -66,10 +66,10 @@ body {
   object-fit: cover;
 }
 
-.swiper-slide-shadow-left,
+/* .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
   display: none;
-}
+} */
 
 .slider-controler {
   position: relative;

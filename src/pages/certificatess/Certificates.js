@@ -1,7 +1,10 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 import certificateData from "./certificateData.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { FreeMode } from "swiper";
+
 import PageHeader from "../../components/PageHeader";
 import "./certificates.css";
 
@@ -12,19 +15,35 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
-SwiperCore.use([FreeMode]);
-
 function Certificates() {
+  const [ref, inView] = useInView({
+    threshold: 0.2,
+    triggerOnce: true,
+  });
+
   const certificateItems = certificateData.map((certificate) => (
-    <SwiperSlide key={certificate.id}>
+    <SwiperSlide
+      key={certificate.id}
+      onClick={() => handleClick(certificate.url)}
+    >
       <img src={certificate.image} alt={certificate.title} />
     </SwiperSlide>
   ));
 
+  const handleClick = (url) => {
+    window.open(url, "_blank"); // Open URL in a new tab/window
+  };
+
   return (
     <section className="portfolio">
       <PageHeader title="Certificates" description="Explore my credentials" />
-      <div className="container">
+      <motion.div
+        className="container"
+        ref={ref}
+        initial={{ x: "-10vw", opacity: 0 }}
+        animate={inView ? { x: 0, opacity: 1 } : { x: "-10vw", opacity: 0 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -58,7 +77,7 @@ function Certificates() {
             <div className="swiper-pagination"></div>
           </div>
         </Swiper>
-      </div>
+      </motion.div>
     </section>
   );
 }
