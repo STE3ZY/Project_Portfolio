@@ -66,10 +66,10 @@ body {
   object-fit: cover;
 }
 
-.swiper-slide-shadow-left,
+/* .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
   display: none;
-}
+} */
 
 .slider-controler {
   position: relative;
@@ -140,7 +140,7 @@ body {
 
 @media (max-width: 500px) {
   .swiper_container {
-    height: 47rem;
+    height: 42rem;
   }
   .swiper-slide {
     width: 28rem !important;
@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 450px) {
   .slider-controler .swiper-button-next {
-    left: 80% !important;
+    left: 85% !important;
     transform: translateX(-80%) !important;
   }
 }
@@ -175,7 +175,7 @@ body {
 
 @media (max-width: 450px) {
   .slider-controler .swiper-button-prev {
-    left: 20% !important;
+    left: 15% !important;
     transform: translateX(-20%) !important;
   }
 }
