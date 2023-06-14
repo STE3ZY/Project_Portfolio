@@ -1,70 +1,70 @@
 [
   {
     "title": "HTML CSS Development",
-    "image": "./certificateImages/cert-html-css.png",
+    "image": "./Project_Portfolio/certificateImages/cert-html-css.png",
     "uni": "Altcademy",
     "url": "https://www.altcademy.com/@steezy/certificate/webdesignium",
     "id": "1"
   },
   {
     "title": "Javascript Programming",
-    "image": "./certificateImages/cert-js.png",
+    "image": "./Project_Portfolio/certificateImages/cert-js.png",
     "uni": "Altcademy",
     "url": "https://www.altcademy.com/@steezy/certificate/javascriptium",
     "id": "2"
   },
   {
     "title": "Dynamic Website Decelopment",
-    "image": "./certificateImages/cert-dwd.png",
+    "image": "./Project_Portfolio/certificateImages/cert-dwd.png",
     "uni": "Altcademy",
     "url": "https://www.altcademy.com/@steezy/certificate/jqueryium",
     "id": "3"
   },
   {
     "title": "Coding 101",
-    "image": "./certificateImages/cert-code101.png",
+    "image": "./Project_Portfolio/certificateImages/cert-code101.png",
     "uni": "Altcademy",
     "url": "https://www.altcademy.com/@steezy/certificate/coding101",
     "id": "4"
   },
   {
     "title": "HTML Certification Course",
-    "image": "./certificateImages/ph-html.jpg",
+    "image": "./Project_Portfolio/certificateImages/ph-html.jpg",
     "uni": "Programming Hub",
     "url": "https://programminghub.io/certificates",
     "id": "5"
   },
   {
     "title": "HTML Advanced Certification Course",
-    "image": "./certificateImages/ph-html-adv.jpg",
+    "image": "./Project_Portfolio/certificateImages/ph-html-adv.jpg",
     "uni": "Programming Hub",
     "url": "https://programminghub.io/certificates",
     "id": "6"
   },
   {
     "title": "CSS Certification Course",
-    "image": "./certificateImages/ph-css.jpg",
+    "image": "./Project_Portfolio/certificateImages/ph-css.jpg",
     "uni": "Programming Hub",
     "url": "https://programminghub.io/certificates",
     "id": "7"
   },
   {
     "title": "Javascript Cerification Course",
-    "image": "./certificateImages/ph-js.jpg",
+    "image": "./Project_Portfolio/certificateImages/ph-js.jpg",
     "uni": "Programming Hub",
     "url": "https://programminghub.io/certificates",
     "id": "8"
   },
   {
     "title": "Javascript Advanced Cerification Course",
-    "image": "./certificateImages/ph-js-adv.jpg",
+    "image": "./Project_Portfolio/certificateImages/ph-js-adv.jpg",
     "uni": "Programming Hub",
     "url": "https://programminghub.io/certificates",
     "id": "9"
   },
   {
     "title": "Building a Website Cerification Course",
-    "image": "./certificateImages/ph-baw.jpg",
+    "image": "./Project_Portfolio/certificateImages/ph-baw.jpg",
     "uni": "Programming Hub",
     "url": "https://programminghub.io/certificates",
     "id": "10"
