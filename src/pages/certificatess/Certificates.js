@@ -1,19 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
 import certificateData from "./certificateData.json";
-import { Swiper, SwiperSlide } from "swiper/react";
-
 import PageHeader from "../../components/PageHeader";
 import "./certificates.css";
-
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Modal from "react-modal";
+import { useState } from "react";
+import closeModal from "../../images/close.svg";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
+
+Modal.setAppElement("#root");
 
 function Certificates() {
   const [ref, inView] = useInView({
@@ -21,18 +23,22 @@ function Certificates() {
     triggerOnce: true,
   });
 
+  const [showModal, setShowModal] = useState(false);
+  const [selectedCertificate, setSelectedCertificate] = useState(null);
+  const handleOpenModal = (certificate) => {
+    setSelectedCertificate(certificate);
+    setShowModal(true);
+  };
+  const handleCloseModal = () => setShowModal(false);
+
   const certificateItems = certificateData.map((certificate) => (
     <SwiperSlide
       key={certificate.id}
-      onClick={() => handleClick(certificate.url)}
+      onClick={() => handleOpenModal(certificate)}
     >
       <img src={certificate.image} alt={certificate.title} />
     </SwiperSlide>
   ));
-
-  const handleClick = (url) => {
-    window.open(url, "_blank"); // Open URL in a new tab/window
-  };
 
   return (
     <section className="portfolio">
@@ -77,6 +83,59 @@ function Certificates() {
             <div className="swiper-pagination"></div>
           </div>
         </Swiper>
+
+        <Modal
+          isOpen={showModal}
+          onRequestClose={handleCloseModal}
+          style={{
+            content: {
+              backgroundColor: "#101010",
+              color: "#9f9f9f",
+              padding: "60px",
+              display: "flex",
+              flexDirection: "column",
+              width: "400px",
+              top: "50%",
+              left: "50%",
+              right: "auto",
+              bottom: "auto",
+              marginRight: "-50%",
+              transform: "translate(-50%, -50%)",
+              zIndex: "999",
+            },
+          }}
+        >
+          <img
+            src={closeModal}
+            className="closeMenu closeModal"
+            onClick={handleCloseModal}
+            alt="Close"
+          />
+          {selectedCertificate && (
+            <>
+              <h3 className="modalTitle">{selectedCertificate.title}</h3>
+              <p className="projectDescription">{selectedCertificate.uni}</p>
+              {selectedCertificate.LargeImg !== "" && (
+                <button
+                  className="btn"
+                  onClick={() =>
+                    (window.location.href = selectedCertificate.LargeImg)
+                  }
+                >
+                  Larger Image
+                </button>
+              )}
+              <button
+                className="btn"
+                onClick={() =>
+                  (window.location.href = selectedCertificate.verify)
+                }
+              >
+                Verify Certificate at {selectedCertificate.uni}
+              </button>
+            </>
+          )}
+        </Modal>
       </motion.div>
     </section>
   );
