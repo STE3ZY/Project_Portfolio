@@ -3,70 +3,80 @@
     "title": "HTML CSS Development",
     "image": "./certificateImages/cert-html-css.png",
     "uni": "Altcademy",
-    "url": "https://www.altcademy.com/@steezy/certificate/webdesignium",
+    "verify": "https://www.altcademy.com/@steezy/certificate/webdesignium",
+    "LargeImg": "",
     "id": "1"
   },
   {
     "title": "Javascript Programming",
     "image": "./certificateImages/cert-js.png",
     "uni": "Altcademy",
-    "url": "https://www.altcademy.com/@steezy/certificate/javascriptium",
+    "verify": "https://www.altcademy.com/@steezy/certificate/javascriptium",
+    "LargeImg": "",
     "id": "2"
   },
   {
     "title": "Dynamic Website Decelopment",
     "image": "./certificateImages/cert-dwd.png",
     "uni": "Altcademy",
-    "url": "https://www.altcademy.com/@steezy/certificate/jqueryium",
+    "verify": "https://www.altcademy.com/@steezy/certificate/jqueryium",
+    "LargeImg": "",
     "id": "3"
   },
   {
     "title": "Coding 101",
     "image": "./certificateImages/cert-code101.png",
     "uni": "Altcademy",
-    "url": "https://www.altcademy.com/@steezy/certificate/coding101",
+    "verify": "https://www.altcademy.com/@steezy/certificate/coding101",
+    "LargeImg": "",
     "id": "4"
   },
   {
     "title": "HTML Certification Course",
     "image": "./certificateImages/ph-html.jpg",
     "uni": "Programming Hub",
-    "url": "https://programminghub.io/certificates",
+    "verify": "https://programminghub.io/certificates",
+    "LargeImg": "https://storage.googleapis.com/programminghub/certificate%2F1665770714533.jpg",
     "id": "5"
   },
   {
     "title": "HTML Advanced Certification Course",
     "image": "./certificateImages/ph-html-adv.jpg",
     "uni": "Programming Hub",
-    "url": "https://programminghub.io/certificates",
+    "verify": "https://programminghub.io/certificates",
+    "LargeImg": "https://storage.googleapis.com/programminghub/certificate%2F1666298240694.jpg",
     "id": "6"
   },
   {
     "title": "CSS Certification Course",
     "image": "./certificateImages/ph-css.jpg",
     "uni": "Programming Hub",
-    "url": "https://programminghub.io/certificates",
+    "verify": "https://programminghub.io/certificates",
+    "LargeImg": "https://storage.googleapis.com/programminghub/certificate%2F1666552025362.jpg",
     "id": "7"
   },
   {
     "title": "Javascript Cerification Course",
     "image": "./certificateImages/ph-js.jpg",
     "uni": "Programming Hub",
-    "url": "https://programminghub.io/certificates",
+    "verify": "https://programminghub.io/certificates",
+    "LargeImg": "https://storage.googleapis.com/programminghub/certificate%2F1678190755671.jpg",
     "id": "8"
   },
   {
     "title": "Javascript Advanced Cerification Course",
     "image": "./certificateImages/ph-js-adv.jpg",
     "uni": "Programming Hub",
-    "url": "https://programminghub.io/certificates",
+    "verify": "https://programminghub.io/certificates",
+    "LargeImg": "https://storage.googleapis.com/programminghub/certificate%2F1679152592555.jpg",
     "id": "9"
   },
   {
     "title": "Building a Website Cerification Course",
     "image": "./certificateImages/ph-baw.jpg",
     "uni": "Programming Hub",
-    "url": "https://programminghub.io/certificates",
+    "verify": "https://programminghub.io/certificates",
+    "LargeImg": "https://storage.googleapis.com/programminghub/certificate%2F1668518584392.jpg",
     "id": "10"
   }
 ]
