@@ -74,12 +74,8 @@ function Certificates() {
           {certificateItems}
 
           <div className="slider-controler">
-            <div className="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div className="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
+            <div className="swiper-button-prev slider-arrow"></div>
+            <div className="swiper-button-next slider-arrow"></div>
             <div className="swiper-pagination"></div>
           </div>
         </Swiper>
