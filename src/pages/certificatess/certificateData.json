@@ -3,32 +3,32 @@
     "title": "HTML CSS Development",
     "image": "./certificateImages/cert-html-css.png",
     "uni": "Altcademy",
-    "verify": "https://www.altcademy.com/@steezy/certificate/webdesignium",
-    "LargeImg": "",
+    "verify": "https://www.altcademy.com/@steezy/verify/webdesignium",
+    "LargeImg": "https://www.altcademy.com/@steezy/certificate/webdesignium",
     "id": "1"
   },
   {
     "title": "Javascript Programming",
     "image": "./certificateImages/cert-js.png",
     "uni": "Altcademy",
-    "verify": "https://www.altcademy.com/@steezy/certificate/javascriptium",
-    "LargeImg": "",
+    "verify": "https://www.altcademy.com/@steezy/verify/javascriptium",
+    "LargeImg": "https://www.altcademy.com/@steezy/certificate/javascriptium",
     "id": "2"
   },
   {
     "title": "Dynamic Website Decelopment",
     "image": "./certificateImages/cert-dwd.png",
     "uni": "Altcademy",
-    "verify": "https://www.altcademy.com/@steezy/certificate/jqueryium",
-    "LargeImg": "",
+    "verify": "https://www.altcademy.com/@steezy/verify/jqueryium",
+    "LargeImg": "https://www.altcademy.com/@steezy/certificate/jqueryium",
     "id": "3"
   },
   {
     "title": "Coding 101",
     "image": "./certificateImages/cert-code101.png",
     "uni": "Altcademy",
-    "verify": "https://www.altcademy.com/@steezy/certificate/coding101",
-    "LargeImg": "",
+    "verify": "https://www.altcademy.com/@steezy/verify/coding101",
+    "LargeImg": "https://www.altcademy.com/@steezy/certificate/coding101",
     "id": "4"
   },
   {
