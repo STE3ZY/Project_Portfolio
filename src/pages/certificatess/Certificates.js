@@ -12,7 +12,6 @@ import "swiper/css/navigation";
 import Modal from "react-modal";
 import { useState } from "react";
 import closeModal from "../../images/close.svg";
-
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 Modal.setAppElement("#root");
@@ -70,6 +69,14 @@ function Certificates() {
           }}
           modules={[EffectCoverflow, Pagination, Navigation]}
           className="swiper_container"
+          direction="vertical" // Set the direction to vertical
+          breakpoints={{
+            // Add a breakpoint for small screens
+            768: {
+              direction: "horizontal",
+              spaceBetween: 16,
+            },
+          }}
         >
           {certificateItems}
 
