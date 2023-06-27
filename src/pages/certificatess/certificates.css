@@ -67,11 +67,27 @@ html {
     height: 42rem;
   }
   .swiper-slide {
-    width: 28rem !important;
+    width: 30rem !important;
     height: 36rem !important;
   }
   .swiper-slide img {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 30rem !important;
+    height: 35rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+  .swiper-slide {
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .slider-arrow {
+    display: none !important;
   }
 }
