@@ -64,19 +64,18 @@ html {
 
 @media (max-width: 890px) {
   .swiper_container {
-    height: 42rem;
+    height: 36rem;
   }
+
   .swiper-slide {
     width: 30rem !important;
     height: 36rem !important;
   }
   .swiper-slide img {
-    width: 30rem !important;
-    height: 35rem !important;
+    width: 34rem !important;
+    height: 36rem !important;
   }
-}
 
-@media (max-width: 768px) {
   .swiper-pagination {
     display: none;
   }
@@ -85,9 +84,6 @@ html {
     display: flex !important;
     justify-content: center;
     align-items: center;
-    margin: auto;
-  }
-  .slider-arrow {
-    display: none !important;
+    margin: 0;
   }
 }

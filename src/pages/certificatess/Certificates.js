@@ -69,14 +69,14 @@ function Certificates() {
           }}
           modules={[EffectCoverflow, Pagination, Navigation]}
           className="swiper_container"
-          direction="vertical" // Set the direction to vertical
-          breakpoints={{
-            // Add a breakpoint for small screens
-            768: {
-              direction: "horizontal",
-              spaceBetween: 16,
-            },
-          }}
+          direction="horizontal" // Set the direction to vertical
+          // breakpoints={{
+          //   // Add a breakpoint for small screens
+          //   768: {
+          //     direction: "horizontal",
+          //     spaceBetween: 16,
+          //   },
+          // }}
         >
           {certificateItems}
 
