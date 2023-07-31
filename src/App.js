@@ -4,7 +4,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   const personalDetails = {
     name: "Ioannis Karadimos",
-    location: "Trikala, Gr",
+    location: "Greece",
     email: "karadimos.giannis@gmail.com",
     availability: "Open for work",
     brand:
