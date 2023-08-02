@@ -1,13 +1,33 @@
 [
   {
+    "title": "Flow Cafe",
+    "image": "./projectImages/flowCafe.png",
+    "description": "A React application built and maintained for local coffee shop using React, React Hooks, React Router Dom, React Awesome Reveal for animations and more. The app was built using CRA.",
+    "technologies": "React | Javascript | CSS | Node",
+    "github": "https://github.com/STE3ZY/flow_cafe.git",
+    "deployed": "https://flowcafe.netlify.app/",
+    "bgcolor": "#9045c4",
+    "id": "11"
+  },
+  {
+    "title": "Meteora Donkeyland",
+    "image": "./projectImages/meteoraDonkeyland.png",
+    "description": "A React application built and maintained for newly founded business using React, React Hooks, LightGallery, Tailwind and more. The app was built using Vite.",
+    "technologies": "React | Tailwind | Vite | Google API",
+    "github": "https://github.com/STE3ZY/meteora_donkeyland.git",
+    "deployed": "https://meteoradonkeyland.gr/",
+    "bgcolor": "#a5c445",
+    "id": "10"
+  },
+  {
     "title": "Discover Meteora",
     "image": "./projectImages/dscvrM.png",
-    "description": "A basic React application that demonstrates the use of React components, React Router, and other tools and dependencies that I used to build a simple travel website for my hometown. The application uses external dependencies such as FontAwesome for icons and CSS files for styling. It also uses React hooks, such as useEffect, to manage the lifecycle of the components and handle side effects.",
-    "technologies": "React | Node | CSS",
+    "description": "A basic React application that demonstrates the use of React components, React Router, Typescript and other tools and dependencies that I used to build a simple travel website for my hometown. The application uses external dependencies such as FontAwesome for icons and CSS files for styling. It also uses React hooks, such as useEffect, to manage the lifecycle of the components and handle side effects.",
+    "technologies": "React | Typescript | Node | CSS",
     "github": "https://github.com/STE3ZY/ReactProjectM.git",
     "deployed": "https://ste3zy.github.io/ReactProjectM/",
     "bgcolor": "#f37737",
-    "id": "1"
+    "id": "9"
   },
   {
     "title": "10 Second Math Game",
@@ -17,7 +37,7 @@
     "github": "https://github.com/STE3ZY/10_Second_Math.git",
     "deployed": "https://ste3zy.github.io/10_Second_Math/",
     "bgcolor": "#29cbe0",
-    "id": "2"
+    "id": "8"
   },
   {
     "title": "Movie-Finder",
@@ -27,7 +47,7 @@
     "github": "https://github.com/STE3ZY/Movie_Finder.git",
     "deployed": "https://ste3zy.github.io/Movie_Finder/",
     "bgcolor": "#6c4bf4",
-    "id": "3"
+    "id": "7"
   },
   {
     "title": "To Do List",
@@ -37,7 +57,7 @@
     "github": "https://github.com/STE3ZY/ToDoList.git",
     "deployed": "https://ste3zy.github.io/ToDoList/",
     "bgcolor": "#f85781",
-    "id": "4"
+    "id": "6"
   },
 
   {
@@ -48,7 +68,7 @@
     "github": "https://github.com/STE3ZY/Simple-Shopping-Cart.git",
     "deployed": "https://ste3zy.github.io/Simple-Shopping-Cart/",
     "bgcolor": "#ffcc33",
-    "id": "1"
+    "id": "5"
   },
 
   {
@@ -59,7 +79,7 @@
     "github": "https://github.com/STE3ZY/Rock-Paper-Scissors-Lizard-Spock.git",
     "deployed": "https://ste3zy.github.io/Rock-Paper-Scissors-Lizard-Spock/",
     "bgcolor": "#3e67ff",
-    "id": "6"
+    "id": "4"
   },
 
   {
@@ -70,7 +90,7 @@
     "github": "",
     "deployed": "https://wondrous-lebkuchen-286556.netlify.app/",
     "bgcolor": "#fe67aa",
-    "id": "6"
+    "id": "3"
   },
 
   {
@@ -81,7 +101,7 @@
     "github": "",
     "deployed": "https://poetic-tarsier-9ea616.netlify.app/",
     "bgcolor": "#05e808",
-    "id": "6"
+    "id": "2"
   },
 
   {
@@ -92,6 +112,6 @@
     "github": "",
     "deployed": "https://celadon-torte-4e1b27.netlify.app/",
     "bgcolor": "#8a67df",
-    "id": "6"
+    "id": "1"
   }
 ]
