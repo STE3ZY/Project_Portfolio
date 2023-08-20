@@ -5,7 +5,7 @@
     "description": "A React application built and maintained for local coffee shop using React, React Hooks, React Router Dom, React Awesome Reveal for animations and more. The app was built using CRA.",
     "technologies": "React | Javascript | CSS | Node",
     "github": "https://github.com/STE3ZY/flow_cafe.git",
-    "deployed": "https://flowcafe.netlify.app/",
+    "deployed": "https://flowcafe.gr",
     "bgcolor": "#9045c4",
     "id": "11"
   },
